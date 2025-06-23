@@ -97,7 +97,7 @@ const SupabaseStatus = () => {
           <div className="flex-1">
             <h3 className="text-red-400 font-semibold mb-2">Supabase Connection Failed</h3>
             <p className="text-red-300 text-sm mb-3">
-              Cannot connect to Supabase. Music files will be stored locally and will be lost on page reload.
+              Cannot connect to Supabase. Please verify your configuration.
             </p>
             <div className="text-xs text-red-200 space-y-1">
               <p>To fix this:</p>
