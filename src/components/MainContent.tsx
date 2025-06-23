@@ -87,11 +87,7 @@ const MainContent = () => {
         <div className="flex items-center justify-between mb-4">
           <div>
             <h1 className="text-4xl font-bold text-gradient">Your Music Library</h1>
-            <p className="text-white/60 text-sm mt-1">
-              Storage: {storageType === 'supabase' ? 'Cloud (Supabase)' : 
-                       storageType === 'localStorage' ? 'Local Browser' : 
-                       'Checking...'}
-            </p>
+            <p className="text-white/60 text-sm mt-1">Storage: Cloud (Supabase)</p>
           </div>
           <div className="flex items-center space-x-4">
             <button

@@ -215,12 +215,6 @@ CREATE POLICY "Public access" ON public.uploaded_tracks FOR ALL USING (true);`}<
               </div>
             </div>
 
-            <div className="mt-4 p-3 bg-blue-500/20 border border-blue-500/30 rounded">
-              <p className="text-blue-200 text-xs">
-                <strong>Note:</strong> Current system will fallback to localStorage if Supabase Storage is not available. 
-                Files stored in localStorage will be lost when page reloads.
-              </p>
-            </div>
           </div>
         </div>
       </div>
